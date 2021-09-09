@@ -24,11 +24,32 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Ortal's React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+   
+    
+    <!-- --------------Adding-Dark-Mode--------------------- -->
+    <div id="container" class="container">
+      <div class="container-icons-outer">
+        <div class="icon-container">
+          <div id="icons" class="icons">
+            <div id="icon1" class="icon icon1"> 
+              <i class="fas fa-moon"></i>
+            </div>
+            <div id="root"></div>
+            <div id="icon2" class="icon icon2">
+              <i class="fas fa-sun"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button id="swap-btn" class="swap-btn">Switch to Dark Mode</button>
+      </div>
+    </div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
