@@ -3,9 +3,14 @@ each className will be style here  */
 .game-area {
   position: relative;
   margin: 50px auto;
-  width: 520px;
-  height: 520px;
+  width: 500px;
+  height: 500px;
+  bottom: -40px;
   border: 2px solid #000;
+  top: auto;
+  margin-top: -1cm;
+    
+
 
 }
 
@@ -17,7 +22,6 @@ each className will be style here  */
   background-color: #000;
   border: 1px solid #fff;
   z-index: 2;
-
 }
 
 .snake-food{
@@ -25,7 +29,32 @@ each className will be style here  */
   width: 2%;
   height: 2%;
   background-color: red;
-  border: 1px solid #fff;
+  border: 1px solid rgb(255, 255, 255);
   z-index: 1;
+}
 
+
+.container {
+	height: 100vh;
+	background: hsl(192, 7%, 87%);
+	transition: background 1.2s;
+}
+.container.dark {
+	background: hsl(200, 65%, 8%);
+}
+
+.btn-container {
+	text-align: center;
+}
+.swap-btn {
+	margin: auto;
+	padding: 10px 20px;
+	background: #848484;
+	font-weight: bold;
+  border: none;
+	border-radius: 6px;
+	color: #eee;
+	outline: none;
+	cursor: pointer;
+	line-height: 1.5em;
 }
