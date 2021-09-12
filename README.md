@@ -1,11 +1,8 @@
-## Dark Mode
-![image](https://user-images.githubusercontent.com/44768171/132690898-81a112c1-14f5-45c7-a2d5-c3ba4dda5384.png)
-
 ## Light Mode
 ![image](https://user-images.githubusercontent.com/44768171/132690980-3b556929-4437-4776-ae20-599cd7ab3b48.png)
 
-
-
+## Dark Mode
+![image](https://user-images.githubusercontent.com/44768171/132690898-81a112c1-14f5-45c7-a2d5-c3ba4dda5384.png)
 
 
 # Getting Started with Create React App
