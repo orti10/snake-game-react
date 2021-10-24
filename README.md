@@ -1,3 +1,7 @@
+#  Snake-Game-React
+
+## [I deployed the game on a server - Click Here](https://ortal-snake-game.herokuapp.com/)
+
 ## Light Mode
 ![image](https://user-images.githubusercontent.com/44768171/132690980-3b556929-4437-4776-ae20-599cd7ab3b48.png)
 
